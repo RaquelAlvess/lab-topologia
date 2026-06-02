@@ -81,14 +81,14 @@ containerlab version
 Clone o repositório e acesse o diretório do laboratório:
 
 ```bash
-git clone https://github.com/seunomegit/lab.git
-cd lab
+git clone https://github.com/RaquelAlvess/lab-topologia.git
+cd lab-topologia
 ```
 
 ## 🐝 Passo 2 — Deploy da Topologia
 
 ```bash
-sudo containerlab deploy -t lab.clab.yml --reconfigure
+sudo containerlab deploy -t lab-topologia.yml --reconfigure
 ```
 
 Isso irá:
@@ -99,7 +99,7 @@ Isso irá:
 Verifique se o lab está rodando:
 
 ```bash
-docker ps --filter "label=containerlab=lab"
+docker ps --filter "label=containerlab=lab-topologia"
 ```
 
 ---
